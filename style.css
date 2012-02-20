@@ -8,6 +8,12 @@ DESCRIPTION:Custom theme for Principle Property
 TEMPLATE:headway
 */
 
+
+* { 
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; /* apply a natural box layout model to all elements */
+	background-repeat: no-repeat; /* default background images to not repeat */
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -31,8 +37,10 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	text-decoration: none;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -57,14 +65,76 @@ table {
 	border-spacing: 0;
 }
 
-/* apply a natural box layout model to all elements */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
+/* Begin PPM styling */
 body {
     background: #ccc url('img/bg-gray.png') repeat;
 }
 
-div.wrapper {
+/* Resets Headway wrapper style */
+div.wrapper.responsive-grid {
     background-color: transparent;
     box-shadow: none;
+    padding: 0;
+    width: 66.666667%%; /* 960px / 1440px */
+    max-width: 960px;
 }
+
+h1 {
+    text-shadow: 1px 1px 0px #f2f2f2, 1px 2px 0px #b1b1b2; /*trying this style from codrops */
+}
+
+#site-header {
+	background: #333 url('img/irongrip.png') repeat;
+	border-bottom: 1px solid #fff;
+	height: 90px;
+	width: 100%;
+}
+
+.site-header-wrapper {
+	margin: 0 auto;
+    width: 66.666667%%; /* 960px / 1440px */
+    max-width: 960px;
+}
+
+.primary, #site-logo {
+	float: left;
+}
+
+#site-logo {
+	background-image: url('img/site-logo-bg.png');
+	height: 123px;
+	width: 39.683333%; /* 380px / 960px */
+}
+
+#site-logo h1 img {
+	padding: 15px 25px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
