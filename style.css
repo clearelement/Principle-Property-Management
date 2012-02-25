@@ -182,7 +182,12 @@ body.custom {
 
 
 
-
+#site-footer {
+	background: #333 url('img/irongrip.png') repeat;
+	border-top: 1px solid #fff;
+	height: 90px;
+	width: 100%;
+}
 
 
 
