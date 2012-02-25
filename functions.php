@@ -1,8 +1,19 @@
 <?php
+
+add_action('wp_head', 'load_fonts');
+
+function load_fonts() {?>
+
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700|Vollkorn:400italic,400,700' rel='stylesheet' type='text/css'>
+
+<?php
+
+}
+
 function ppm_fluid_header() { 
 ?>
     <header id="site-header">
-    <div class="site-header-wrapper">
+    <div class="site-header-wrapper group">
     	<nav class="primary"> <a href="/prairievista">Prairie Vista Apartments</a> </nav>
     	<div id="site-logo">
 	    	<h1>

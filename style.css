@@ -19,7 +19,7 @@ TEMPLATE:headway
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+html, body.custom, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -65,13 +65,21 @@ table {
 	border-spacing: 0;
 }
 
-/* Begin PPM styling */
-body {
-    background: #ccc url('img/bg-gray.png') repeat;
+/* Semantic Clearfix Hack via http://css-tricks.com/snippets/css/clear-fix/ */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
-/* Resets Headway wrapper style */
-div.wrapper.responsive-grid {
+/* Headway Style Resets */
+.wrapper.responsive-grid {
     background-color: transparent;
     box-shadow: none;
     padding: 0;
@@ -79,7 +87,22 @@ div.wrapper.responsive-grid {
     max-width: 960px;
 }
 
-h1 {
+.custom .block-type-content .entry-content {
+	font-size: 100%;
+}
+
+/* Begin PPM styling */
+body.custom {
+    background: #ccc url('img/bg-gray.png') repeat;
+    font-family: 'Vollkorn', Georgia, Times, serif;
+}
+
+.custom h1, 
+.block-type-content div.entry-content h1, 
+.custom .entry-title {
+	color: #666;
+	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 2.875em;
     text-shadow: 1px 1px 0px #f2f2f2, 1px 2px 0px #b1b1b2; /*trying this style from codrops */
 }
 
@@ -91,23 +114,62 @@ h1 {
 }
 
 .site-header-wrapper {
+	padding: 0 1.041667%; /* 10px / 960px */
 	margin: 0 auto;
+	min-width: 960px;
     width: 66.666667%%; /* 960px / 1440px */
-    max-width: 960px;
 }
 
-.primary, #site-logo {
+.primary {
+	margin-top: 3.0894309%; 
+}
+
+.primary a {
+	color: #ccc;
+	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+.primary a:before,
+.primary a:after {
+	content: url(img/star.png);
+	margin: 0 5px;
+}
+
+.primary, 
+#site-logo {
 	float: left;
 }
 
 #site-logo {
 	background-image: url('img/site-logo-bg.png');
 	height: 123px;
-	width: 39.683333%; /* 380px / 960px */
+	margin: 0 1.166667%; 
+	/* width: 39.683333%; /* 380px / 960px */ */
+}
+
+#site-logo h1 {
+	font-size: .5em;
 }
 
 #site-logo h1 img {
-	padding: 15px 25px 5px;
+	padding: 15px 25px 3px;
+}
+
+#site-logo p {
+	color: #666;
+	font-style: italic;
+	letter-spacing: .15em;
+	text-align: center;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+#site-logo p:before,
+#site-logo p:after {
+	content: "~";
 }
 
 
