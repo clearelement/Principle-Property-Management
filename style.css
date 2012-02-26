@@ -14,7 +14,8 @@ TEMPLATE:headway
 	background-repeat: no-repeat; /* default background images to not repeat */
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* based on
+   http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -65,6 +66,8 @@ table {
 	border-spacing: 0;
 }
 
+img, embed, object, video { max-width: 100%; }
+
 /* Semantic Clearfix Hack via http://css-tricks.com/snippets/css/clear-fix/ */
 .group:before,
 .group:after {
@@ -79,12 +82,12 @@ table {
 }
 
 /* Headway Style Resets */
-.wrapper.responsive-grid {
+.custom .wrapper.responsive-grid {
     background-color: transparent;
     box-shadow: none;
     padding: 0;
     width: 66.666667%%; /* 960px / 1440px */
-    max-width: 960px;
+    max-width: 1000px;
 }
 
 .custom .block-type-content .entry-content {
@@ -116,6 +119,7 @@ body.custom {
 .site-header-wrapper {
 	padding: 0 1.041667%; /* 10px / 960px */
 	margin: 0 auto;
+	max-width: 1000px;
 	min-width: 960px;
     width: 66.666667%%; /* 960px / 1440px */
 }
