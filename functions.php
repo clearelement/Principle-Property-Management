@@ -38,21 +38,21 @@ add_action('headway_before_wrapper', 'ppm_fluid_header');
 function ppm_fluid_footer() { 
 ?>
 	<footer id="site-footer">
-	<div class="site-footer-wrapper">
-		<div class="apartment-links">
+	<div id="site-footer-wrapper" class="group">
+		<div id="footer-apartments">
 			<a href="/prairievista"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/prairie-vista-footer.png" alt="Prairie Vista Luxury Apartments" title="Prairie Vista Luxury Apartments"> </a>
 			<a href="/woodsage"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/woodsage-footer.png" alt="Woodsage Apartments" title="Woodsage Apartments"> </a>
 		</div>
-		<div class="rentals-footer">
+		<div id="footer-rentals">
 			<a href="http://principle.managebuilding.com/">See All of Our <b>Available Rentals</b></a>
 		</div>
-		<div class="social-footer">
+		<div id="footer-social">
 			Connect With Us
 			<a href="http://www.facebook.com"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook-footer.png" alt="Facebook" title="Facebook"> </a>
 			<a href="http://plus.google.com"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/gplus-footer.png" alt="Google Plus" title="Google Plus"> </a>
 			<a href="http://www.youtube.com"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/youtube-footer.png" alt="YouTube" title="YouTube"> </a>
 		</div>
-		<div id="" class="vcard">
+		<div id="footer-contact" class="vcard">
 			 <div class="adr">
 			  <div class="street-address">2401 W Alta Rd</div>
 			  <span class="locality">Peoria</span>
@@ -62,9 +62,9 @@ function ppm_fluid_footer() {
 			  <span class="postal-code">61615</span>
 			
 			 </div>
-			 <span class="tel"><span class="type">phone</span>309.686.1122</span>
-			 <span class="tel"><span class="type">fax</span>309.688.7001</span>
-			 <span class="type">email<a class="email" href="mailto:info@principleproperty.net">info@principleproperty.net</a></span>
+			 <div class="tel"><span class="type">phone<br></span>309.686.1122<br></div>
+			 <div class="tel"><span class="type">fax<br></span>309.688.7001<br></div>
+			 <div class="type">email<br><a class="email" href="mailto:info@principleproperty.net">info@principleproperty.net</a></div>
 		</div>
 	</div>
 	</footer>   

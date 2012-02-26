@@ -183,10 +183,90 @@ body.custom {
 
 
 #site-footer {
+	color: #ccc;
 	background: #333 url('img/irongrip.png') repeat;
 	border-top: 1px solid #fff;
-	height: 90px;
+	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	min-height: 90px;
+	padding: 40px 0 25px;
 	width: 100%;
+}
+
+#site-footer a {
+	color: #ccc;
+}
+
+#site-footer-wrapper {
+	padding: 0 1.041667%; /* 10px / 960px */
+	margin: 0 auto;
+	min-width: 960px;
+    width: 66.666667%%; /* 960px / 1440px */
+}
+
+#site-footer-wrapper > div {
+	float: left;
+}
+
+#footer-apartments {
+	margin-top: 3%;
+	width: 25.520833%; /* 245px / 960px */
+}
+
+#footer-apartments a:first-of-type img {
+	border-bottom: 1px solid #999;
+	padding-bottom: 5px;
+}
+
+#footer-rentals {
+	font-size: 1.5em; /* 24px / 16px */
+	font-weight: 300;
+	margin: 6% 7.083333% 0 8.333333%;
+	text-align: center;
+	width: 17.1875%; /* 165px / 960px */
+}
+
+#footer-rentals a b {
+	font-size: 1.5em; /* 36px / 24px */
+	font-weight: bold;
+	line-height: .85em;
+}
+
+#footer-social {
+	font-size: 1.15em; /* 20px / 16px */
+	font-weight: 300;
+	letter-spacing: .0625em;
+	line-height: 1.5em;
+	margin: 7.5% 4.208333% 0 0;
+	width: 16.666667%; /* 160px / 960px */
+}
+
+#footer-social :nth-child(2) img {
+	margin: 0 13.875%;
+}
+
+#footer-contact {
+	width: 20.833333%; /* 200px / 960px */
+}
+
+#footer-contact > div {
+	margin-bottom: 15px;
+}
+
+#footer-contact div:last-child {
+	margin-bottom: 0;
+}
+
+#footer-contact .type {
+	font-family: 'Vollkorn', Georgia, Times, serif;
+	font-style: italic;
+	letter-spacing: .15em;
+}
+
+#footer-contact .type .email {
+	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	letter-spacing: normal;
 }
 
 
