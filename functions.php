@@ -66,6 +66,10 @@ function ppm_fluid_footer() {
 			 <div class="tel"><span class="type">fax<br></span>309.688.7001<br></div>
 			 <div class="type">email<br><a class="email" href="mailto:info@principleproperty.net">info@principleproperty.net</a></div>
 		</div>
+		<div id="fine-print">
+		<img src="<?php bloginfo('stylesheet_directory'); ?>/img/eho-logo.png" alt="Equal Housing Opportunity" title="Equal Housing Opportunity" width="50" height="52" />
+		<div id="copyright">&copy; <?php echo date('Y'); ?> Principle Property Management</div>
+		</div>
 	</div>
 	</footer>   
 <?php 

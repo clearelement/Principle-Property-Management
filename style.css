@@ -269,6 +269,19 @@ body.custom {
 	letter-spacing: normal;
 }
 
+#site-footer-wrapper #fine-print {
+	clear: both;
+	float: none;
+	padding-top: 15px;
+	text-align: center;
+}
+
+#copyright {
+	color: #999;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: .625em; /* 10px / 16px */
+}
+
 
 
 
