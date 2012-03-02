@@ -120,12 +120,13 @@ body.custom {
 	padding: 0 1.041667%; /* 10px / 960px */
 	margin: 0 auto;
 	max-width: 1000px;
-	min-width: 960px;
+	/* min-width: 960px; */
     width: 66.666667%%; /* 960px / 1440px */
 }
 
 .primary {
 	margin-top: 3.0894309%; 
+	text-align: center;
 }
 
 .primary a {
@@ -137,10 +138,12 @@ body.custom {
 	vertical-align: middle;
 }
 
-.primary a:before,
-.primary a:after {
+@media screen and (min-width: 1420px){
+.primary:before,
+.primary:after {
 	content: url(img/star.png);
-	margin: 0 5px;
+	margin: 0 1.5%;
+}
 }
 
 .primary, 
@@ -148,11 +151,34 @@ body.custom {
 	float: left;
 }
 
+.prairie {
+	width: 29%;
+}
+
+.woodsage {
+	width: 28%;
+}
+
 #site-logo {
-	background-image: url('img/site-logo-bg.png');
-	height: 123px;
+	background-image: url('img/logo-bg.png');
+	background-color: #ccc;
+	background-repeat: repeat;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-bottom-right-radius: 55% 35%;
+		-moz-border-bottom-right-radius: 55% 35%;
+		-webkit-border-bottom-right-radius: 55% 35%;
+	border-bottom-left-radius: 55% 35%;
+		-moz-border-bottom-left-radius: 55% 35%;
+		-webkit-border-bottom-left-radius: 55% 35%;
+	box-shadow: 0 8px 6px -8px black;
+		-moz-box-shadow: 0 8px 6px -8px black;
+		-webkit-box-shadow: 0 8px 6px -8px black;
+	height: 100%;
 	margin: 0 1.166667%; 
-	/* width: 39.683333%; /* 380px / 960px */ */
+	padding-bottom: .75%;
+	width: 40.95%; /* 380px / 960px */
 }
 
 #site-logo h1 {
