@@ -37,7 +37,7 @@ add_action('headway_before_wrapper', 'ppm_fluid_header');
 
 function ppm_fluid_footer() { 
 ?>
-	<footer id="site-footer">
+	<footer id="site-footer" class="group">
 	<div id="site-footer-wrapper" class="group">
 		<div id="footer-apartments">
 			<a href="/prairievista"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/prairie-vista-footer.png" alt="Prairie Vista Luxury Apartments" title="Prairie Vista Luxury Apartments"> </a>
@@ -47,7 +47,7 @@ function ppm_fluid_footer() {
 			<a href="http://principle.managebuilding.com/">See All of Our <b>Available Rentals</b></a>
 		</div>
 		<div id="footer-social">
-			Connect With Us
+			<p>Connect With Us</p>
 			<a href="http://www.facebook.com"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook-footer.png" alt="Facebook" title="Facebook"> </a>
 			<a href="http://plus.google.com"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/gplus-footer.png" alt="Google Plus" title="Google Plus"> </a>
 			<a href="http://www.youtube.com"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/youtube-footer.png" alt="YouTube" title="YouTube"> </a>
