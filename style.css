@@ -82,6 +82,10 @@ img, embed, object, video { max-width: 100%; }
 }
 
 /* Headway Style Resets */
+.custom .whitewrap {
+	position: relative;
+}
+
 .custom .wrapper.responsive-grid {
     background-color: transparent;
     box-shadow: none;
@@ -113,6 +117,7 @@ body.custom {
 	background: #333 url('img/irongrip.png') repeat;
 	border-bottom: 1px solid #fff;
 	height: 85px;
+	position: relative;
 	width: 100%;
 }
 
@@ -120,12 +125,14 @@ body.custom {
 	padding: 0 1.041667%; /* 10px / 960px */
 	margin: 0 auto;
 	max-width: 1000px;
+	position: relative
 }
 
 .primary {
-	margin-top: 3.0894309%; 
 	text-align: center;
-	width: 29%;
+	position: absolute;
+	top: 25%;
+	width: 30%;
 }
 
 .primary a {
@@ -144,9 +151,14 @@ body.custom {
 	margin: 0 1.5%;
 }}
 
-.primary, 
-#site-logo {
-	float: left;
+.prairie-vista {
+	left: 0;
+	text-align: right;
+}
+
+.woodsage {
+	right: 0;
+	text-align: left;
 }
 
 #site-logo {
@@ -166,7 +178,7 @@ body.custom {
 		-moz-box-shadow: 0 8px 6px -8px black;
 		-webkit-box-shadow: 0 8px 6px -8px black;
 	height: 100%;
-	margin: 0 1.166667%; 
+	margin: 0 auto; 
 	padding-bottom: 1.25%;
 	width: 38%; /* 380px / 960px */
 }
@@ -317,7 +329,7 @@ body.custom {
 	}
 	
 	.primary {
-		margin-top: 2.5%;
+		top: 18%;
 	}
 	
 	#site-footer-wrapper > div:nth-child(-n+3) {
@@ -413,6 +425,34 @@ body.custom {
 	
 	#footer-contact > div {
 		margin: 0 1.45% 0;
+	}
+}
+
+@media screen and (max-width: 538px) {
+	#site-header {
+		height: auto;
+	}
+	
+	#site-logo {
+		margin: 0 15% 5%;
+		width: 70%;
+	}
+	
+	.primary {
+		float: none;
+		font-size: 1em;
+		margin: 0 5% 2.5%;
+		width: auto;
+	}
+	
+	.primary ul :first-child :after {
+		content: url(img/star.png);
+		margin: 0 5%;
+	}
+	
+	.primary ul li {
+		float: left;
+		width: auto;
 	}
 }
 
