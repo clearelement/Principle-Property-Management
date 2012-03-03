@@ -390,6 +390,32 @@ body.custom {
 	}
 }
 
+@media screen and (max-width: 620px) {
+	#footer-rentals {
+		font-size: 1.35em;
+		margin: 6% 7.15% 0;
+	}
+	
+	#footer-contact {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	#footer-contact > div {
+		margin: 0 2.45% 0;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	#site-logo {
+		width: 44%;
+	}
+	
+	#footer-contact > div {
+		margin: 0 1.45% 0;
+	}
+}
+
 
 
 
