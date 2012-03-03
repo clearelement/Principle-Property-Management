@@ -222,7 +222,7 @@ body.custom {
 	padding: 0 1.041667%; /* 10px / 960px */
 	margin: 4% auto;
 	max-width: 1000px;
-    width: 66.666667%%; /* 960px / 1440px */
+    width: 66.666667%; /* 960px / 1440px */
 }
 
 #site-footer-wrapper > div {
@@ -317,7 +317,7 @@ body.custom {
 	}
 	
 	#footer-rentals {
-		margin: 6% 10% 0;
+		margin: 6% 9.15% 0;
 	}
 	
 	#footer-social {
@@ -332,7 +332,7 @@ body.custom {
 	
 	#footer-contact > div {
 		float: left;
-		margin: 5% 3.75%% 0;
+		margin: 5% 3.45% 0;
 	}
 	
 	#footer-contact div:first-child {
