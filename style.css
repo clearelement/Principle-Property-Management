@@ -316,6 +316,10 @@ body.custom {
 		height: 65px;
 	}
 	
+	.primary {
+		margin-top: 2.5%;
+	}
+	
 	#site-footer-wrapper > div:nth-child(-n+3) {
 		max-width: 29%;
 		width: auto;
@@ -378,6 +382,12 @@ body.custom {
 		font-size: .95em;
 	}
 	
+}
+
+@media screen and (max-width: 758px) {
+	.woodsage {
+		width: 25%;
+	}
 }
 
 
