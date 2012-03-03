@@ -306,7 +306,7 @@ body.custom {
 
 
 /* Media Queries */
-@media screen and (max-width: 1024px) { /* landscape tablets, older displays */
+@media screen and (min-width: 768px) and (max-width: 1024px) { /* landscape tablets, older displays */
 	#site-header {
 		height: 65px;
 	}
@@ -327,12 +327,14 @@ body.custom {
 	#footer-contact {
 		clear: both;
 		float: none;
+		margin-top: 3%;
+		padding-bottom: 0 3%;
 		width: 100%;
 	}
 	
 	#footer-contact > div {
 		float: left;
-		margin: 5% 3.45% 0;
+		margin: 0 3.45% 0;
 	}
 	
 	#footer-contact div:first-child {
@@ -342,6 +344,26 @@ body.custom {
 	#footer-contact div:last-child {
 		margin-right: 0;
 	}
+}
+
+@media screen and (max-width: 768px) { /* portrait tablets */
+	.site-header-wrapper {
+		max-width: none;
+		width: auto;
+	}
+	
+	.primary {
+		font-size: .95em;
+	}
+	
+	#site-footer-wrapper {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: none;
+		padding: 0 5%;
+		width: auto;
+	}
+	
 }
 
 
