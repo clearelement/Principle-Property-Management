@@ -137,11 +137,12 @@ body.custom {
 	vertical-align: middle;
 }
 
+@media screen and (min-width: 950px) {
 .primary:before,
 .primary:after {
 	content: url(img/star.png);
 	margin: 0 1.5%;
-}
+}}
 
 .primary, 
 #site-logo {
@@ -310,7 +311,7 @@ body.custom {
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) { /* landscape tablets, older displays */
+@media screen and (max-width: 1024px) { /* landscape tablets, older displays */
 	#site-header {
 		height: 65px;
 	}
@@ -331,8 +332,10 @@ body.custom {
 	#footer-contact {
 		clear: both;
 		float: none;
+		margin-left: 5%;
+		margin-right: 5%;
 		margin-top: 3%;
-		padding-bottom: 0 3%;
+		padding-bottom: 3%;
 		width: 100%;
 	}
 	
@@ -350,7 +353,7 @@ body.custom {
 	}
 }
 
-@media screen and (max-width: 768px) { /* portrait tablets */
+@media screen and (max-width: 805px) { /* portrait tablets */
 	.site-header-wrapper {
 		max-width: none;
 		width: auto;
@@ -364,8 +367,15 @@ body.custom {
 		margin-left: auto;
 		margin-right: auto;
 		max-width: none;
-		padding: 0 5%;
 		width: auto;
+	}
+	
+	#footer-social :nth-child(3) img {
+		margin: 0 12.875%;
+	}
+	
+	#footer-contact {
+		font-size: .95em;
 	}
 	
 }
