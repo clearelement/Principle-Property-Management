@@ -441,31 +441,38 @@ body.custom {
 	#site-header {
 		height: auto;
 	}
+
+	.site-header-wrapper {
+		max-width: 95%;
+	}
 	
 	#site-logo {
-		margin: 0 15% 10%;
+		margin: 0 15% 4%;
 		width: 70%;
 	}
 	
 	.primary {
 		float: none;
 		font-size: 1em;
-		margin: 0 0 0 2%;
-		top: 85%;
+		margin: 0 auto 2.5%;
+		position: relative;
+		top: 0;
 		width: auto;
-	}
-	
-	.primary a {
-		/*margin-right: 8.5%;*/
 	}
 		
 	.prairie-vista {
 		left: 0;
+		float: left;
 	}
 	
 	.prairie-vista:after {
 		content: url(img/star.png);
 		margin: 0 5%;
+	}
+
+	.woodsage {
+		float: left;
+		margin-left: 0;
 	}
 }
 
@@ -524,7 +531,56 @@ body.custom {
 	#footer-contact > div:nth-child(4) {
 		margin-top: 2.5%;
 	}
+}
 
+@media screen and (max-width: 512px) {
+	#site-logo {
+		margin: 0 2.5% 4%;
+		width: 95%;
+	}
+	
+	.primary {
+		text-align: center;
+		max-width: 44%;
+	}
+
+	.prairie-vista {
+		margin-left: 4%;
+	}
+
+	.prairie-vista:after {
+		margin: 0;
+		position: absolute;
+		top: 25%;
+		right: -5%;
+	}
+}
+
+@media screen and (max-width: 511px) {
+	#footer-contact > div {
+		margin: 0 0 3%;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 405px) {
+	#site-footer-wrapper > div {
+		float: none;
+		margin: 3% auto;
+		max-width: 95%;
+	}
+
+	#site-footer-wrapper > div:nth-child(-n+3) {
+		max-width: 95%;
+		text-align: center;
+	}
+
+	#site-footer-wrapper > div:first-child {
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 3%;
+	}
+}
 
 
 
