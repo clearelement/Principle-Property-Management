@@ -456,7 +456,7 @@ body.custom {
 	}
 	
 	.primary a {
-		margin-right: 8.5%;
+		/*margin-right: 8.5%;*/
 	}
 		
 	.prairie-vista {
@@ -465,6 +465,7 @@ body.custom {
 	
 	.prairie-vista:after {
 		content: url(img/star.png);
+		margin: 0 5%;
 	}
 }
 
@@ -483,7 +484,7 @@ body.custom {
 	
 	#footer-rentals {
 		font-size: 1.75em;
-		margin: 6% 0 0 7.15%;
+		margin: 6% 0 0 10.15%;
 	}
 	
 	#site-footer-wrapper #footer-social {
@@ -492,7 +493,7 @@ body.custom {
 		clear: both;
 		float: none;
 		margin: 0;
-		max-width: 95%;
+		max-width: 100%;
 		padding: 2.5% 0;
 		text-align: center;
 	}
@@ -504,16 +505,24 @@ body.custom {
 	#footer-contact {
 		float: none;
 		font-size: 1.15em;
-		margin: 0 6%;
+		margin: 3% 2%;
+		padding-bottom: 0;
 		
 	}
 	
 	#footer-contact > div {
-		margin: 0 7.5%;
+		margin: 0;
+		width: 40%;
 	}
 	
-	#footer-contact > div:nth-child(3) {
-		margin: 0;
+	#footer-contact > div:nth-child(3),
+	#footer-contact > div:first-child {
+		margin-right: 12.5%;
+	}
+
+	#footer-contact > div:nth-child(3),
+	#footer-contact > div:nth-child(4) {
+		margin-top: 2.5%;
 	}
 
 
