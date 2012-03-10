@@ -96,7 +96,20 @@ img, embed, object, video { max-width: 100%; }
 
 .custom .block-type-content .entry-content {
 	color: #333;
+	font-family: 'Vollkorn', Georgia, Times, serif;
 	font-size: 100%;
+	line-height: 150%;
+}
+
+.custom h1,
+.block-type-content div.entry-content h1, 
+.custom .entry-title {
+	color: #333;
+	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 2.25em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 0px #f2f2f2, 1px 2px 0px #b1b1b2;
 }
 
 /* Begin PPM styling */
@@ -105,16 +118,6 @@ img, embed, object, video { max-width: 100%; }
 body.custom {
     background: #ccc url('img/bg-gray.png') repeat;
     font-family: 'Vollkorn', Georgia, Times, serif;
-}
-
-.custom h1, 
-.block-type-content div.entry-content h1, 
-.custom .entry-title {
-	color: #666;
-	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 2.875em;
-	line-height: 120%;
-    text-shadow: 1px 1px 0px #f2f2f2, 1px 2px 0px #b1b1b2; /*trying this style from codrops */
 }
 
 #site-header {
@@ -218,6 +221,14 @@ body.custom {
 	width: 56.333333%;
 }
 
+.custom div.entry-content .intro-copy h1 {
+	color: #666;
+	font-size: 2.875em;
+	font-weight: normal;
+	line-height: 120%;
+	text-align: left;
+}
+
 .intro-copy h1 b {
 	color: #0599C0;
 	font-weight: bold;
@@ -296,6 +307,26 @@ body.custom {
 
 .social a {
 	margin: 0 2%;
+}
+
+#leasing ol {
+	margin: 0;
+	padding: 0;
+}
+
+#leasing ol li {
+	float: left;
+	padding: 0 1.5%;
+	text-align: center;
+	width: 16.625%;
+}
+
+#leasing ol li b {
+	color: #0599C1;
+	display: block;
+	font-size: 1.125em;
+	margin-bottom: 15%;
+	text-transform: uppercase;
 }
 
 
