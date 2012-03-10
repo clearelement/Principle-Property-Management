@@ -77,3 +77,58 @@ function ppm_fluid_footer() {
 }
 add_action('headway_after_wrapper', 'ppm_fluid_footer'); 
 
+// Homepage Content 
+function ppm_homepage() { 
+?>
+<div class="entry-content"> <!-- REMOVE THIS DIV -->
+    <section id="intro" class="group">
+	  <div class="intro-copy">
+	    <h1>Connecting Peoria With <b>Quality Rental Homes and Apartments</b></h1>
+	    <p>Principle Property Management offers a great selection of properties and quality service for tenants. 
+	    	Our technology makes it convenient for tenants to contact us. Automatic bill pay makes it easy to set up and pay rent.
+	    </p>
+	    <a class="button" href="http://principle.managebuilding.com/">Available Rentals</a>  
+	  </div>
+	  <div class="intro-images">
+	    <img src="/wp-content/themes/Principle-Property-Management/img/home-photo.png" alt="Rental Home" title="Rental Home">
+	    <div class="apartments">
+	      <a href="/prairie-vista"><img src="/wp-content/themes/Principle-Property-Management/img/prairie-vista-intro.png" alt="Prairie Vista Luxury Apartments" title="Prairie Vista Luxury Apartments"></a>
+	      <a href="/woodsage"><img src="/wp-content/themes/Principle-Property-Management/img/woodsage-intro.png" alt="Woodsage Apartments" title="Woodsage Apartments"></a>
+	    </div>
+	  </div>
+	</section>
+  <section class="social group">
+      <h2>Connect with Principle Property</h2>
+      <a href="http://www.facebook.com/"><img src="/wp-content/themes/Principle-Property-Management/img/facebook.png" alt="Facebook" title="Facebook"></a>
+      <a href="http://plus.google.com/"><img src="/wp-content/themes/Principle-Property-Management/img/gplus.png" alt="Google Plus" title="Google Plus"></a>
+      <a href="http://www.youtube.com/"><img src="/wp-content/themes/Principle-Property-Management/img/youtube.png" alt="YouTube" title="YouTube"></a>
+   </section>
+</div> <!-- REMOVE THIS DIV -->
+
+<?php 
+}
+add_action('headway_entry_open', 'ppm_homepage');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
