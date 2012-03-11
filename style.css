@@ -114,6 +114,38 @@ img, embed, object, video { max-width: 100%; }
 
 /* Begin PPM styling */
 
+.custom .button {
+   border-top: 1px solid #31c0f8;
+   background: #04718c;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0598c1), to(#04718c));
+   background: -webkit-linear-gradient(top, #0598c1, #04718c);
+   background: -moz-linear-gradient(top, #0598c1, #04718c);
+   background: -ms-linear-gradient(top, #0598c1, #04718c);
+   background: -o-linear-gradient(top, #0598c1, #04718c);
+   padding: 2% 3%;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   -webkit-box-shadow: rgba(0,0,0,.65) 0 1px 2px;
+   -moz-box-shadow: rgba(0,0,0,.65) 0 1px 2px;
+   box-shadow: rgba(0,0,0,.65) 0 1px 2px;
+   color: white;
+   font-size: 1.45em;
+   font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #0598c1;
+   background: #0598c1;
+   color: #ffffff;
+   }
+.button:active {
+   border-top-color: #04718c;
+   background: #04718c;
+   }
+
 /*Begin Header Styles*/
 body.custom {
     background: #ccc url('img/bg-gray.png') repeat;
@@ -309,16 +341,33 @@ body.custom {
 	margin: 0 2%;
 }
 
+#leasing {
+	text-align: center;
+}
+
 #leasing ol {
-	margin: 0;
+	margin: 0 0 5%;
 	padding: 0;
 }
 
 #leasing ol li {
+	border-right: 1px solid #999;
+	border-left: 1px solid #fff;
 	float: left;
+	list-style: none;
+	min-height: 22em;
 	padding: 0 1.5%;
 	text-align: center;
 	width: 16.625%;
+}
+
+#leasing ol li:first-child {
+	border-left: none;
+}
+
+#leasing ol li:last-child {
+	border-right: none;
+	padding-right: 0;
 }
 
 #leasing ol li b {
@@ -329,6 +378,13 @@ body.custom {
 	text-transform: uppercase;
 }
 
+#leasing ol li a {
+	font-weight: bold;
+}
+
+#leasing ol li a:hover {
+	text-decoration: underline;
+}
 
 
 

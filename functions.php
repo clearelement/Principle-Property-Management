@@ -106,12 +106,12 @@ function ppm_homepage() {
    <section id="leasing">
    		<h1>Our Leasing Process</h1>
    		<ol class="group">
-   			<li><b>Apply Online</b> <a href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Complete our application.</a> We look for your income to be 3X your rent.</li>
-   			<li><b>Schedule a Showing</b> We will contact you to schedule a showing if you meet the income requirements. We may require that you provide your last 2 pay stubs.</li>
-   			<li><b>View the Property</b> We’ll show you around the property and answer any questions you have.</li>
-   			<li><b>Process Your Application</b> We send you an email to get your consent to run a credit check. The results are delivered as soon as you finish the questionaire.</li>
-   			<li><b>Hold the Property</b> If the background check and credit requirements are met, you will be able to hold the property with a security deposit.</li>
-   			<li><b>Lease Signing</b> We sign a lease, give you a folder with all necessary rental information, and hand you the keys once we receive the 1st month’s rent.</li>
+   			<li><img src="/wp-content/themes/Principle-Property-Management/img/01-circle.png"><b>Apply Online</b> <a href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Complete our application.</a> We look for your income to be 3X your rent.</li>
+   			<li><img src="/wp-content/themes/Principle-Property-Management/img/02-circle.png"><b>Schedule a Showing</b> We will contact you to schedule a showing if you meet the income requirements. We may require that you provide your last 2 pay stubs.</li>
+   			<li><img src="/wp-content/themes/Principle-Property-Management/img/03-circle.png"><b>View the Property</b> We’ll show you around the property and answer any questions you have.</li>
+   			<li><img src="/wp-content/themes/Principle-Property-Management/img/04-circle.png"><b>Process Your Application</b> We send you an email to get your consent to run a credit check. The results are delivered as soon as you finish the questionaire.</li>
+   			<li><img src="/wp-content/themes/Principle-Property-Management/img/05-circle.png"><b>Hold the Property</b> If the background check and credit requirements are met, you will be able to hold the property with a security deposit.</li>
+   			<li><img src="/wp-content/themes/Principle-Property-Management/img/06-circle.png"><b>Lease Signing</b> We sign a lease, give you a folder with all necessary rental information, and hand you the keys once we receive the 1st month’s rent.</li>
 		</ol>
 		<a class="button" href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Apply Today</a>
    </section>
