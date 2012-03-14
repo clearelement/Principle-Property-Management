@@ -115,6 +115,314 @@ function ppm_homepage() {
 		</ol>
 		<a class="button" href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Apply Today</a>
    </section>
+   <section class="management">
+		<h1>Full Service Property Management</h1>
+		<h2>Making real estate investment simple and easy</h2>
+		<div class="management-copy">
+			<p class="intro-copy">Because we are small, we are able to be more attentive to customer needs and consistently provide quality tenants who respect the property. Owners have access to real time information about properties, payments, repair status, and occupancy.</p>
+
+			<h3>Marketing Strategy</h3>
+			<p>We find tenants using Craigslist ads that are quickly and easily created with our property management software. These ads provide clear information to potential tenants.</p>
+
+			<h3>Property Management Software</h3>
+			<p>Our property management software gives investors access to their property information and activity which, when combined with maintenance, leasing, and quality tenants, creates a premium service. Efficiencies in marketing and communication allow our pricing to still be competitive and in-line with other large property management firms with lower levels of service. Our web-based software is easy for customers to use no matter how tech savvy they are.</p>
+			
+			<h3>Contact Us Today and Make Managing Your Properties Simple.</p>
+			<div class="vcard"><span class="tel value">309.686.1122</span></div>
+			<div class="vcard"><a class="email" href="mailto:info@principleproperty.net">info@principleproperty.net</a></div>
+		</div>
+		<div class="services-table">
+			<table class="services-table">
+			<tbody>
+			<tr class="owners-head">
+			<td></td>
+			<td><strong>Services Provided</strong></td>
+			<td><strong>Leasing Service Only</strong></td>
+			<td><strong>Total Management</strong></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>Advertise Vacancies</td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr class="alt-row">
+			<td></td>
+			<td>Applicant Screening</td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>Lease Signing</td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr class="alt-row">
+			<td></td>
+			<td>Minor Repairs</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>Paint</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr class="alt-row">
+			<td></td>
+			<td>Professional Cleaning</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>24-Hour Emergency Hotline</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr class="alt-row">
+			<td></td>
+			<td>Ongoing Resident Communication</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>Consulting</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr class="alt-row">
+			<td></td>
+			<td>Payment Collection</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>Electronic Funds Transfer</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr class="alt-row">
+			<td></td>
+			<td>Finance Reporting</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>Regular Maintenance</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr class="alt-row">
+			<td></td>
+			<td>Manage Contractors</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>Landscaping</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr class="alt-row">
+			<td></td>
+			<td>City Registration</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>Late Fees</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			<tr class="alt-row">
+			<td></td>
+			<td>Evictions</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			</tr>
+			</tbody>
+			</table>
+		</div>
+   </section>
 </div> <!-- REMOVE THIS DIV -->
 
 <?php 
