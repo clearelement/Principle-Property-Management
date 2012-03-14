@@ -13,10 +13,10 @@ function load_fonts() {?>
 
 function ppm_fluid_header() { 
 ?>
-    <header id="site-header">
-    <div class="site-header-wrapper group">
+    <header class="site-header">
+    <div class="fluid-wrapper group">
     	
-    	<div id="site-logo" class="group">
+    	<div class="site-logo group">
 	    	<h1>
 	    		<a href="http://www.principleproperty.dev/">
 	    			<img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png" alt="Principle Property Management" title="Return to the Principle Property Management homepage">
@@ -38,22 +38,22 @@ add_action('headway_before_wrapper', 'ppm_fluid_header');
 
 function ppm_fluid_footer() { 
 ?>
-	<footer id="site-footer" class="group">
-	<div id="site-footer-wrapper" class="group">
-		<div id="footer-apartments">
+	<footer class="site-footer group">
+	<div class="fluid-wrapper group">
+		<div class="footer-apartments">
 			<a href="/prairievista"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/prairie-vista-footer.png" alt="Prairie Vista Luxury Apartments" title="Prairie Vista Luxury Apartments"> </a>
 			<a href="/woodsage"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/woodsage-footer.png" alt="Woodsage Apartments" title="Woodsage Apartments"> </a>
 		</div>
-		<div id="footer-rentals">
+		<div class="footer-rentals">
 			<a href="http://principle.managebuilding.com/">See All of Our <b>Available Rentals</b></a>
 		</div>
-		<div id="footer-social">
+		<div class="footer-social">
 			<p>Connect With Us</p>
 			<a href="http://www.facebook.com"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook-footer.png" alt="Facebook" title="Facebook"> </a>
 			<a href="http://plus.google.com"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/gplus-footer.png" alt="Google Plus" title="Google Plus"> </a>
 			<a href="http://www.youtube.com"> <img src="<?php bloginfo('stylesheet_directory'); ?>/img/youtube-footer.png" alt="YouTube" title="YouTube"> </a>
 		</div>
-		<div id="footer-contact" class="vcard">
+		<div class="footer-contact" class="vcard">
 			 <div class="adr">
 			  <div class="street-address">2401 W Alta Rd</div>
 			  <span class="locality">Peoria</span>
@@ -67,9 +67,9 @@ function ppm_fluid_footer() {
 			 <div class="tel"><span class="type">fax<br></span>309.688.7001<br></div>
 			 <div class="type">email<br><a class="email" href="mailto:info@principleproperty.net">info@principleproperty.net</a></div>
 		</div>
-		<div id="fine-print">
+		<div class="fine-print">
 		<img src="<?php bloginfo('stylesheet_directory'); ?>/img/eho-logo.png" alt="Equal Housing Opportunity" title="Equal Housing Opportunity" width="50" height="52" />
-		<div id="copyright">&copy; <?php echo date('Y'); ?> Principle Property Management</div>
+		<div class="copyright">&copy; <?php echo date('Y'); ?> Principle Property Management</div>
 		</div>
 	</div>
 	</footer>   
@@ -81,7 +81,7 @@ add_action('headway_after_wrapper', 'ppm_fluid_footer');
 function ppm_homepage() { 
 ?>
 <div class="entry-content"> <!-- REMOVE THIS DIV -->
-    <section id="intro" class="group">
+    <section class="intro group">
 	  <div class="intro-copy">
 	    <h1>Connecting Peoria With <b>Quality Rental Homes and Apartments</b></h1>
 	    <p>Principle Property Management offers a great selection of properties and quality service for tenants. 
@@ -103,7 +103,7 @@ function ppm_homepage() {
       <a href="http://plus.google.com/"><img src="/wp-content/themes/Principle-Property-Management/img/gplus.png" alt="Google Plus" title="Google Plus"></a>
       <a href="http://www.youtube.com/"><img src="/wp-content/themes/Principle-Property-Management/img/youtube.png" alt="YouTube" title="YouTube"></a>
    </section>
-   <section id="leasing">
+   <section class="leasing">
    		<h1>Our Leasing Process</h1>
    		<ol class="group">
    			<li><img src="/wp-content/themes/Principle-Property-Management/img/01-circle.png"><b>Apply Online</b> <a href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Complete our application.</a> We look for your income to be 3X your rent.</li>
