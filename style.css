@@ -112,6 +112,20 @@ img, embed, object, video { max-width: 100%; }
 	text-shadow: 1px 1px 0px #f2f2f2, 1px 2px 0px #b1b1b2;
 }
 
+.custom .block-type-content div.entry-content h3 {
+	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 120%;
+	margin: 0;
+}
+
+.custom .entry-content .subheading {
+	font-size: 1.75em;
+	font-style: italic;
+	text-align: center;
+}
+
 /* Begin PPM styling */
 
 .custom .button {
@@ -350,7 +364,7 @@ body.custom {
 	text-align: center;
 }
 
-.leasing ol {
+.custom .leasing ol {
 	margin: 0 0 5%;
 	padding: 0;
 }
@@ -391,6 +405,23 @@ body.custom {
 	text-decoration: underline;
 }
 
+.custom .entry-content .management h1 {
+	line-height: 100%;
+	margin: 5% 0 0;
+}
+
+.management-copy {
+	float: left;
+	margin: 0 5.28% 0 0;
+	width: 50%;
+}
+
+.management-copy .intro-copy {
+	float: none;
+	font-size: 1.25em;
+	line-height: 150%;
+	width: auto;
+}
 
 
  /*Begin Footer Styles */

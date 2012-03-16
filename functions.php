@@ -117,7 +117,7 @@ function ppm_homepage() {
    </section>
    <section class="management">
 		<h1>Full Service Property Management</h1>
-		<h2>Making real estate investment simple and easy</h2>
+		<h2 class="subheading">Making real estate investment simple and easy</h2>
 		<div class="management-copy">
 			<p class="intro-copy">Because we are small, we are able to be more attentive to customer needs and consistently provide quality tenants who respect the property. Owners have access to real time information about properties, payments, repair status, and occupancy.</p>
 
@@ -127,7 +127,7 @@ function ppm_homepage() {
 			<h3>Property Management Software</h3>
 			<p>Our property management software gives investors access to their property information and activity which, when combined with maintenance, leasing, and quality tenants, creates a premium service. Efficiencies in marketing and communication allow our pricing to still be competitive and in-line with other large property management firms with lower levels of service. Our web-based software is easy for customers to use no matter how tech savvy they are.</p>
 			
-			<h3>Contact Us Today and Make Managing Your Properties Simple.</p>
+			<h3>Contact Us Today and Make Managing Your Properties Simple.</h3>
 			<div class="vcard"><span class="tel value">309.686.1122</span></div>
 			<div class="vcard"><a class="email" href="mailto:info@principleproperty.net">info@principleproperty.net</a></div>
 		</div>
