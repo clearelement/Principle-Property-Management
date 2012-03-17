@@ -423,6 +423,10 @@ body.custom {
 	width: 50%;
 }
 
+.management-copy h3 {
+	padding-top: 10%;
+}
+
 .management-copy .intro-copy {
 	float: none;
 	font-size: 1.25em;
@@ -459,8 +463,29 @@ body.custom {
 	line-height: 120%;
 }
 
+.services-table tr > td {
+	padding-bottom: .55em;
+	padding-top: .55em;
+}
+
 .services-table tr {
-	height: 40px;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #fff;
+}
+
+.services-table tr:first-of-type {
+	border-top: none;
+}
+
+.services-table tr:last-of-type {
+	border-bottom: none;
+}
+
+.services-table tr > td {
+	width: 27%;
+}
+.services-table tr > td:first-of-type {
+	width: 45%;
 }
 
 .services-header {
@@ -468,7 +493,8 @@ body.custom {
 	font-weight: bold;
 }
 
-.services-header td {
+.services-table .services-header > td {
+	padding-top: 0;
 	vertical-align: middle;
 }
 
@@ -486,6 +512,18 @@ body.custom {
 	margin-left: 40%;
 }
 
+.cost {
+	font-weight: bold;
+}
+
+.cost-descrip {
+	font-size: .875em;
+	text-align: center;
+}
+
+.services-table tr:last-of-type > td:last-of-type {
+	padding: 0 5%;
+}
 
 
  /*Begin Footer Styles */

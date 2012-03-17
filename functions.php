@@ -135,289 +135,104 @@ function ppm_homepage() {
 			<table class="services-table">
 			<tbody>
 			<tr class="services-header">
-			<td></td>
 			<td>Services Provided</td>
 			<td class="highlight">Leasing Service</td>
 			<td class="highlight">Total Management</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr>
-			<td></td>
 			<td>Advertise Vacancies</td>
 			<td><span class="check">X</span></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr class="alt-row">
-			<td></td>
 			<td>Applicant Screening</td>
 			<td><span class="check">X</span></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr>
-			<td></td>
 			<td>Lease Signing</td>
 			<td><span class="check">X</span></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr class="alt-row">
-			<td></td>
 			<td>Minor Repairs</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr>
-			<td></td>
 			<td>Paint</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr class="alt-row">
-			<td></td>
 			<td>Professional Cleaning</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr>
-			<td></td>
 			<td>24-Hour Emergency Hotline</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr class="alt-row">
-			<td></td>
 			<td>Ongoing Resident Communication</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr>
-			<td></td>
 			<td>Consulting</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr class="alt-row">
-			<td></td>
 			<td>Payment Collection</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr>
-			<td></td>
 			<td>Electronic Funds Transfer</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr class="alt-row">
-			<td></td>
 			<td>Finance Reporting</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr>
-			<td></td>
 			<td>Regular Maintenance</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr class="alt-row">
-			<td></td>
 			<td>Manage Contractors</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr>
-			<td></td>
 			<td>Landscaping</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr class="alt-row">
-			<td></td>
 			<td>City Registration</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr>
-			<td></td>
 			<td>Late Fees</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
 			</tr>
 			<tr class="alt-row">
-			<td></td>
 			<td>Evictions</td>
 			<td></td>
 			<td><span class="check">X</span></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			</tr>
+			<tr>
+			<td class="cost">Cost</td>
+			<td class="cost-descrip">Half of 1st month's rent</td>
+			<td class="cost-descrip">Half of first month's rent + 7% or $75 (whichever is greater)</td>
 			</tr>
 			</tbody>
 			</table>
