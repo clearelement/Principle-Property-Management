@@ -127,18 +127,18 @@ function ppm_homepage() {
 			<h3>Property Management Software</h3>
 			<p>Our property management software gives investors access to their property information and activity which, when combined with maintenance, leasing, and quality tenants, creates a premium service. Efficiencies in marketing and communication allow our pricing to still be competitive and in-line with other large property management firms with lower levels of service. Our web-based software is easy for customers to use no matter how tech savvy they are.</p>
 			
-			<h3>Contact Us Today and Make Managing Your Properties Simple.</h3>
-			<div class="vcard"><span class="tel value">309.686.1122</span></div>
-			<div class="vcard"><a class="email" href="mailto:info@principleproperty.net">info@principleproperty.net</a></div>
+			<h3 class="highlight">Contact Us Today and Make Managing Your Properties Simple.</h3>
+			<div class="vcard phone"><img class="icon" src="/wp-content/themes/Principle-Property-Management/img/phone.png" alt="Phone" title="Phone"><span class="tel value">309.686.1122</span></div>
+			<div class="vcard e-mail"><img class="icon" src="/wp-content/themes/Principle-Property-Management/img/envelope.png" alt="Email" title="Email"><a class="email" href="mailto:info@principleproperty.net">info@principleproperty.net</a></div>
 		</div>
-		<div class="services-table">
+		<div class="services-wrapper">
 			<table class="services-table">
 			<tbody>
-			<tr class="owners-head">
+			<tr class="services-header">
 			<td></td>
-			<td><strong>Services Provided</strong></td>
-			<td><strong>Leasing Service Only</strong></td>
-			<td><strong>Total Management</strong></td>
+			<td>Services Provided</td>
+			<td class="highlight">Leasing Service</td>
+			<td class="highlight">Total Management</td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -152,8 +152,8 @@ function ppm_homepage() {
 			<tr>
 			<td></td>
 			<td>Advertise Vacancies</td>
-			<td>X</td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -167,8 +167,8 @@ function ppm_homepage() {
 			<tr class="alt-row">
 			<td></td>
 			<td>Applicant Screening</td>
-			<td>X</td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -182,8 +182,8 @@ function ppm_homepage() {
 			<tr>
 			<td></td>
 			<td>Lease Signing</td>
-			<td>X</td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -198,7 +198,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Minor Repairs</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -213,7 +213,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Paint</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -228,7 +228,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Professional Cleaning</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -243,7 +243,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>24-Hour Emergency Hotline</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -258,7 +258,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Ongoing Resident Communication</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -273,7 +273,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Consulting</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -288,7 +288,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Payment Collection</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -303,7 +303,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Electronic Funds Transfer</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -318,7 +318,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Finance Reporting</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -333,7 +333,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Regular Maintenance</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -348,7 +348,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Manage Contractors</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -363,7 +363,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Landscaping</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -378,7 +378,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>City Registration</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -393,7 +393,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Late Fees</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -408,7 +408,7 @@ function ppm_homepage() {
 			<td></td>
 			<td>Evictions</td>
 			<td></td>
-			<td>X</td>
+			<td><span class="check">X</span></td>
 			<td></td>
 			<td></td>
 			<td></td>

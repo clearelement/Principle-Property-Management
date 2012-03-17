@@ -112,11 +112,14 @@ img, embed, object, video { max-width: 100%; }
 	text-shadow: 1px 1px 0px #f2f2f2, 1px 2px 0px #b1b1b2;
 }
 
+/*Object Library*/
+
 .custom .block-type-content div.entry-content h3 {
 	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	font-weight: bold;
 	line-height: 120%;
+	letter-spacing; .05em;
 	margin: 0;
 }
 
@@ -124,6 +127,10 @@ img, embed, object, video { max-width: 100%; }
 	font-size: 1.75em;
 	font-style: italic;
 	text-align: center;
+}
+
+.custom .entry-content .highlight {
+	color: #139EC5;
 }
 
 /* Begin PPM styling */
@@ -422,6 +429,63 @@ body.custom {
 	line-height: 150%;
 	width: auto;
 }
+
+.management .vcard {
+	color: #666;
+	float: left;
+	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	margin-top: 5%;
+	position: relative;
+	text-align: center;
+}
+
+.icon {
+	display: block;
+	margin: 0 auto 2%;
+}
+
+.management .phone {
+	margin-right: 15%;
+	margin-top: 8%;
+}
+.services-wrapper {
+	float: left;
+	width: 44%;
+}
+.services-table {
+	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 120%;
+}
+
+.services-table tr {
+	height: 40px;
+}
+
+.services-header {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.services-header td {
+	vertical-align: middle;
+}
+
+.services-header .highlight {
+	text-align: center;
+}
+
+.check {
+	width: 22px; 
+	height: 18px;
+	background: url('img/check.png');
+	font-size: 1px;
+	color: white;
+	display: inline-block;
+	margin-left: 40%;
+}
+
 
 
  /*Begin Footer Styles */
