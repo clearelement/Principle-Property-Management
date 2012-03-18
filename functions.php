@@ -161,21 +161,27 @@ function ppm_homepage() {
 		</ol>
 		<a class="button" href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Apply Today</a>
    </section>
-   <section class="management">
+   <section class="management group">
 		<h1>Full Service Property Management</h1>
 		<h2 class="subheading">Making real estate investment simple and easy</h2>
 		<div class="management-copy">
 			<p class="intro-copy">Because we are small, we are able to be more attentive to customer needs and consistently provide quality tenants who respect the property. Owners have access to real time information about properties, payments, repair status, and occupancy.</p>
 
-			<h3>Marketing Strategy</h3>
-			<p>We find tenants using Craigslist ads that are quickly and easily created with our property management software. These ads provide clear information to potential tenants.</p>
+			<div class="management-info marketing">
+				<h3>Marketing Strategy</h3>
+				<p>We find tenants using Craigslist ads that are quickly and easily created with our property management software. These ads provide clear information to potential tenants.</p>
+			</div>
 
-			<h3>Property Management Software</h3>
-			<p>Our property management software gives investors access to their property information and activity which, when combined with maintenance, leasing, and quality tenants, creates a premium service. Efficiencies in marketing and communication allow our pricing to still be competitive and in-line with other large property management firms with lower levels of service. Our web-based software is easy for customers to use no matter how tech savvy they are.</p>
+			<div class="management-info software">
+				<h3>Property Management Software</h3>
+				<p>Our property management software gives investors access to their property information and activity which, when combined with maintenance, leasing, and quality tenants, creates a premium service. Efficiencies in marketing and communication allow our pricing to still be competitive and in-line with other large property management firms with lower levels of service. Our web-based software is easy for customers to use no matter how tech savvy they are.</p>
+			</div>
 			
-			<h3 class="highlight">Contact Us Today and Make Managing Your Properties Simple.</h3>
-			<div class="vcard phone"><img class="icon" src="/wp-content/themes/Principle-Property-Management/img/phone.png" alt="Phone" title="Phone"><span class="tel value">309.686.1122</span></div>
-			<div class="vcard e-mail"><img class="icon" src="/wp-content/themes/Principle-Property-Management/img/envelope.png" alt="Email" title="Email"><a class="email" href="mailto:info@principleproperty.net">info@principleproperty.net</a></div>
+			<div class="management-contact">
+				<h3 class="highlight">Contact Us Today and Make Managing Your Properties Simple.</h3>
+				<div class="vcard phone"><img class="icon" src="/wp-content/themes/Principle-Property-Management/img/phone.png" alt="Phone" title="Phone"><span class="tel value">309.686.1122</span></div>
+				<div class="vcard e-mail"><img class="icon" src="/wp-content/themes/Principle-Property-Management/img/envelope.png" alt="Email" title="Email"><a class="email" href="mailto:info@principleproperty.net">info@principleproperty.net</a></div>
+			</div>
 		</div>
 		<div class="services-wrapper">
 			<table class="services-table">
