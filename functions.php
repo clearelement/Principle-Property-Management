@@ -83,7 +83,7 @@ function ppm_homepage() {
 <div class="entry-content"> <!-- REMOVE THIS DIV -->
     <section class="intro group">
 	  <div class="intro-copy">
-	    <h1>Connecting Peoria With <b>Quality Rental Homes and Apartments</b></h1>
+	    <h1>Connecting Peoria With<br> <b>Quality Rental Homes and Apartments</b></h1>
 	    <p>Principle Property Management offers a great selection of properties and quality service for tenants. 
 	    	Our technology makes it convenient for tenants to contact us. Automatic bill pay makes it easy to set up and pay rent.
 	    </p>
@@ -98,20 +98,66 @@ function ppm_homepage() {
 	  </div>
 	</section>
   <section class="social group">
+  	<div class="block-wrapper group">
       <h2>Connect with Principle Property</h2>
-      <a href="http://www.facebook.com/"><img src="/wp-content/themes/Principle-Property-Management/img/facebook.png" alt="Facebook" title="Facebook"></a>
-      <a href="http://plus.google.com/"><img src="/wp-content/themes/Principle-Property-Management/img/gplus.png" alt="Google Plus" title="Google Plus"></a>
-      <a href="http://www.youtube.com/"><img src="/wp-content/themes/Principle-Property-Management/img/youtube.png" alt="YouTube" title="YouTube"></a>
+      <div class="icons block-wrapper group">
+	      <a href="http://www.facebook.com/"><img src="/wp-content/themes/Principle-Property-Management/img/facebook.png" alt="Facebook" title="Facebook"></a>
+	      <a href="http://plus.google.com/"><img src="/wp-content/themes/Principle-Property-Management/img/gplus.png" alt="Google Plus" title="Google Plus"></a>
+	      <a href="http://www.youtube.com/"><img src="/wp-content/themes/Principle-Property-Management/img/youtube.png" alt="YouTube" title="YouTube"></a>
+  	  </div>
+    </div>
    </section>
    <section class="leasing">
    		<h1>Our Leasing Process</h1>
    		<ol class="group">
-   			<li><img src="/wp-content/themes/Principle-Property-Management/img/01-circle.png"><b>Apply Online</b> <a href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Complete our application.</a> We look for your income to be 3X your rent.</li>
-   			<li><img src="/wp-content/themes/Principle-Property-Management/img/02-circle.png"><b>Schedule a Showing</b> We will contact you to schedule a showing if you meet the income requirements. We may require that you provide your last 2 pay stubs.</li>
-   			<li><img src="/wp-content/themes/Principle-Property-Management/img/03-circle.png"><b>View the Property</b> We’ll show you around the property and answer any questions you have.</li>
-   			<li><img src="/wp-content/themes/Principle-Property-Management/img/04-circle.png"><b>Process Your Application</b> We send you an email to get your consent to run a credit check. The results are delivered as soon as you finish the questionaire.</li>
-   			<li><img src="/wp-content/themes/Principle-Property-Management/img/05-circle.png"><b>Hold the Property</b> If the background check and credit requirements are met, you will be able to hold the property with a security deposit.</li>
-   			<li><img src="/wp-content/themes/Principle-Property-Management/img/06-circle.png"><b>Lease Signing</b> We sign a lease, give you a folder with all necessary rental information, and hand you the keys once we receive the 1st month’s rent.</li>
+   			<li>
+   				<div class="process-title">
+	   				<img src="/wp-content/themes/Principle-Property-Management/img/01-circle.png"><b>Apply Online</b>
+   				</div>
+   				<div class="process-descrip">
+	   				 <a href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Complete our application.</a> We look for your income to be 3X your rent.
+   				</div>
+   			</li>
+   			<li>
+   				<div class="process-title">
+	   				<img src="/wp-content/themes/Principle-Property-Management/img/02-circle.png"><b>Schedule a Showing</b>
+   				</div>
+   				<div class="process-descrip">
+	   				 We will contact you to schedule a showing if you meet the income requirements. We may require that you provide your last 2 pay stubs.
+	   			</div>
+   			</li>
+   			<li>
+   				<div class="process-title">
+	   				<img src="/wp-content/themes/Principle-Property-Management/img/03-circle.png"><b>View the Property</b>
+   				</div> 
+   				<div class="process-descrip">
+	   				We’ll show you around the property and answer any questions you have.
+	   			</div>
+   			</li>
+   			<li>
+   				<div class="process-title">
+	   				<img src="/wp-content/themes/Principle-Property-Management/img/04-circle.png"><b>Process Your Application</b>
+   				</div> 
+   				<div class="process-descrip">
+	   				We send you an email to get your consent to run a credit check. The results are delivered as soon as you finish the questionaire.
+	   			</div>
+   			</li>
+   			<li>
+   				<div class="process-title">
+	   				<img src="/wp-content/themes/Principle-Property-Management/img/05-circle.png"><b>Hold the Property</b>
+   				</div>
+   				<div class="process-descrip">
+	   				If the background check and credit requirements are met, you will be able to hold the property with a security deposit.
+   				</div>
+   			</li>
+   			<li>
+   				<div class="process-title">
+	   				<img src="/wp-content/themes/Principle-Property-Management/img/06-circle.png"><b>Lease Signing</b>
+   				</div>
+   				<div class="process-descrip">
+	   				We sign a lease, give you a folder with all necessary rental information, and hand you the keys once we receive the 1st month’s rent.
+	   			</div>
+   			</li>
 		</ol>
 		<a class="button" href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Apply Today</a>
    </section>

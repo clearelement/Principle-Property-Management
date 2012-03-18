@@ -301,7 +301,7 @@ body.custom {
    background: -moz-linear-gradient(top, #ffffff, #d9dde0);
    background: -ms-linear-gradient(top, #ffffff, #d9dde0);
    background: -o-linear-gradient(top, #ffffff, #d9dde0);
-   padding: 20px 40px;
+   padding: 3.5% 7%;
    -webkit-border-radius: 16px;
    -moz-border-radius: 16px;
    border-radius: 16px;
@@ -343,7 +343,6 @@ body.custom {
 	border-top: 1px solid #999;
 	clear: both;
 	margin: 5% auto;
-	padding: 1% 12% 0;
 	text-align: center;
 	width: 77%;
 }
@@ -356,13 +355,13 @@ body.custom {
 	text-shadow: 1px 1px 0 #fff;
 }
 
-.social h2,
 .social a {
-	float: left;
+	display: inline-block;
+	margin: 0 2%;
 }
 
-.social a {
-	margin: 0 2%;
+.social .block-wrapper {
+	margin: 1% auto 0;
 }
 
 .leasing {
@@ -632,9 +631,26 @@ body.custom {
 	.fluid-wrapper {
 		width: auto;
 	}
+	.intro-copy .button {
+		padding: 3.5% 5%
+	}
+
+	.custom .wrapper.responsive-grid {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.custom .wrapper.responsive-grid{
+		width: auto;
+	}
 }
 
 @media screen and (max-width: 1024px) { 
+	.custom div.wrapper {
+		margin: 0 1% 0;
+	}
+
 	.site-header {
 		height: 65px;
 	}
@@ -680,6 +696,61 @@ body.custom {
 	}
 }
 
+@media screen and (max-width: 917px) {
+	.management .vcard {
+		font-weight: normal;
+	}
+}
+
+@media screen and (max-width: 892px) {
+	.custom div.entry-content .intro-copy h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (max-width: 881px) {
+	.management .vcard {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 844px) {
+	.intro-copy .button {
+		font-size: 1.5em;
+	}
+
+	.custom .leasing ol {
+		width: 65%;
+		margin: 0 auto;
+	}
+
+	.entry-content .leasing ol li {
+		border-bottom: 1px solid #999;
+		border-left: none;
+		border-right: none;
+		float: none;
+		min-height: 0;
+		overflow: hidden;
+		padding: 5% 0 5%;
+		text-align: left;
+		width: auto;
+	}
+
+	.entry-content .leasing ol li:first-of-type {
+		padding-top: 0;
+	}
+
+	.leasing ol li b {
+		margin-bottom: 0;
+	}
+
+	.process-title {
+		float: left;
+		margin-right: 5%;
+		text-align: center;
+	}
+}
+
 @media screen and (max-width: 805px) { 
 	.site-header-wrapper {
 		max-width: none;
@@ -705,6 +776,11 @@ body.custom {
 		font-size: .95em;
 	}
 	
+}
+@media screen and (max-width: 773px) {
+	.custom div.entry-content .intro-copy h1 {
+		font-size: 2.25em;
+	}
 }
 
 @media screen and (max-width: 719px) {
