@@ -154,6 +154,7 @@ img, embed, object, video { max-width: 100%; }
    font-size: 1.45em;
    font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: bold;
+   text-align: center;
    text-decoration: none;
    vertical-align: middle;
    }
@@ -203,13 +204,6 @@ body.custom {
 	text-transform: uppercase;
 	vertical-align: middle;
 }
-
-@media screen and (min-width: 950px) {
-.primary:before,
-.primary:after {
-	content: url(img/star.png);
-	margin: 0 1.5%;
-}}
 
 .prairie-vista {
 	left: 0;
@@ -696,7 +690,23 @@ body.custom {
 	}
 }
 
+@media screen and (min-width: 950px) {
+	.primary:before,
+	.primary:after {
+		content: url(img/star.png);
+		margin: 0 1.5%;
+}}
+
 @media screen and (max-width: 917px) {
+	.custom .fluid-wrapper .site-logo {
+		max-width: none;
+		width: 50%;
+}
+
+	.primary {
+		width: 20%;
+	}
+
 	.management .vcard {
 		font-weight: normal;
 	}
@@ -789,6 +799,8 @@ body.custom {
 		width: auto;
 	}
 
+	
+
 	.management-copy {
 		float: none;
 		margin: 0;
@@ -853,16 +865,60 @@ body.custom {
 	.custom div.entry-content .intro-copy h1 {
 		font-size: 2.25em;
 	}
+
+	.process-title {
+		width: 40%;
+	}
+
+	.process-descrip {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 732px) {
+	.intro-copy .button {
+		font-size: 1.25em;
+	}
 }
 
 @media screen and (max-width: 719px) {
+	.custom .fluid-wrapper .site-logo {
+		max-width: none;
+		width: 50%;
+	}
+
+	.primary {
+		width: 20%;
+	}
+
 	.woodsage {
-		right: 5%;
-		width: 25%;
+		right: 0;
+	}
+
+	.custom div.entry-content .intro-copy h1 {
+		font-size: 2em;
 	}
 }
 
 @media screen and (max-width: 620px) {
+	.intro-copy {
+		margin-right: 0;
+		width: auto;
+	}
+
+	.custom div.entry-content .intro-copy h1 {
+		font-size: 2.75em;
+	}
+
+	.intro-copy .button {
+		font-size: 1.75em;
+		margin: 5% auto;
+	}
+
+	.intro-images {
+		display: none;
+	}
+
 	.footer-rentals {
 		font-size: 1.35em;
 		margin: 6% 7.15% 0;
@@ -883,12 +939,12 @@ body.custom {
 		width: 44%;
 	}
 	
-	.prairie-vista {
-		left: -5%;
-	}
-	
 	.woodsage {
 		right: 0;
+	}
+
+	.services-wrapper {
+		width: 95%;
 	}
 	
 	.footer-contact > div {
@@ -906,7 +962,7 @@ body.custom {
 	}
 	
 	.site-logo {
-		margin: 0 15% 4%;
+		margin: 0 auto 4%;
 		width: 70%;
 	}
 	
@@ -933,6 +989,10 @@ body.custom {
 		float: left;
 		margin-left: 0;
 	}
+
+	.management-contact {
+		width: 95%;
+	}
 }
 
 @media screen and (max-width: 532px) {
@@ -944,6 +1004,10 @@ body.custom {
 		max-width: 45%;
 	}
 	
+	.management-info {
+		display: block;
+		width: auto;
+	}
 	.footer-apartments {
 		margin: 0 0 2%;
 	}
@@ -993,8 +1057,8 @@ body.custom {
 }
 
 @media screen and (max-width: 512px) {
-	.site-logo {
-		margin: 0 2.5% 4%;
+	.custom .fluid-wrapper .site-logo {
+		margin: 0 auto 4%;
 		width: 95%;
 	}
 
@@ -1016,6 +1080,16 @@ body.custom {
 }
 
 @media screen and (max-width: 511px) {
+	.custom .leasing ol {
+		margin: 0;
+		width: auto;
+	}
+
+	.custom .entry-content .subheading {
+		line-height: 120%;
+		margin-top: 3%;
+	}
+
 	.footer-contact > div {
 		margin: 0 0 3%;
 		text-align: center;
