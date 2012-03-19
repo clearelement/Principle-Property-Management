@@ -1080,6 +1080,10 @@ body.custom {
 }
 
 @media screen and (max-width: 511px) {
+	.custom div.entry-content .intro-copy h1 {
+		font-size: 2.25em;
+	}
+
 	.custom .leasing ol {
 		margin: 0;
 		width: auto;
