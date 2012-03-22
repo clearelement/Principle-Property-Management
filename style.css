@@ -265,7 +265,7 @@ body.custom {
 .intro-copy {
 	float: left;
 	margin-right: 7.333333%;
-	width: 56.333333%;
+	width: 56%;
 }
 
 .custom div.entry-content .intro-copy h1 {
@@ -295,7 +295,7 @@ body.custom {
    background: -moz-linear-gradient(top, #ffffff, #d9dde0);
    background: -ms-linear-gradient(top, #ffffff, #d9dde0);
    background: -o-linear-gradient(top, #ffffff, #d9dde0);
-   padding: 3.5% 7%;
+   padding: 3.5% 6%;
    -webkit-border-radius: 16px;
    -moz-border-radius: 16px;
    border-radius: 16px;
@@ -444,7 +444,7 @@ body.custom {
 }
 
 .management .phone {
-	margin-right: 15%;
+	margin-right: 14.5%;
 	margin-top: 8%;
 }
 .services-wrapper {
