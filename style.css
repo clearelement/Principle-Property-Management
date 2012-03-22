@@ -1102,6 +1102,11 @@ body.custom {
 }
 
 @media screen and (max-width: 405px) {
+	.custom h1, .block-type-content div.entry-content h1, .custom .entry-title {
+		font-size: 1.95em;
+		margin-bottom: 5%;
+	}
+
 	.fluid-wrapper > div {
 		float: none;
 		margin: 3% auto;
@@ -1116,6 +1121,19 @@ body.custom {
 	.fluid-wrapper > div:first-child {
 		border-bottom: 1px solid #ccc;
 		padding-bottom: 3%;
+	}
+
+	.custom div.entry-content .intro-copy h1 {
+		font-size: 1.75em;
+	}
+
+	.social {
+		width: 90%;
+	}
+
+	.custom .entry-content .social h2 {
+		font-size: 1.15em;
+		margin: 2% 0 5%;
 	}
 }
 
