@@ -536,6 +536,7 @@ body.custom {
 
 .site-footer .fluid-wrapper {
 	margin: 4% auto;
+	text-align: center;
 }
 
 .site-footer .fluid-wrapper > div {
@@ -652,8 +653,12 @@ body.custom {
 	.primary {
 		top: 18%;
 	}
+
+	.site-logo {
+		max-width: 36%;
+	}
 	
-	.fluid-wrapper > div:nth-child(-n+3) {
+	.footer-rentals {
 		max-width: 29%;
 		width: auto;
 	}
@@ -664,6 +669,7 @@ body.custom {
 	
 	.footer-social {
 		margin: 7.5% 0 0;
+		width: 25%;
 	}
 	
 	.footer-contact {
@@ -919,9 +925,34 @@ body.custom {
 		display: none;
 	}
 
+	.footer-apartments {
+		width: 40%;
+	}
+
 	.footer-rentals {
-		font-size: 1.35em;
-		margin: 6% 7.15% 0;
+		font-size: 1.75em;
+		margin: 6% 0 0 10.15%;
+		max-width: 40%;
+	}
+
+	.fluid-wrapper .footer-social {
+		border-bottom: 1px solid #ccc;
+		border-top: 1px solid #ccc;
+		clear: both;
+		float: none;
+		margin: 0;
+		width: 100%;
+		padding: 2.5% 0;
+		text-align: center;
+	}
+
+	.footer-apartments {
+		margin: 0 0 2%;
+	}
+		
+	.fluid-wrapper .footer-social p {
+		float: left;
+		margin: 1% 0 0 5%;
 	}
 	
 	.footer-contact {
@@ -1000,37 +1031,16 @@ body.custom {
 		max-width: 95%;
 	}
 	
-	.fluid-wrapper > div:nth-child(-n+3) {
-		max-width: 45%;
-	}
-	
 	.management-info {
 		display: block;
+		margin-top: 5%;
 		width: auto;
 	}
-	.footer-apartments {
-		margin: 0 0 2%;
+
+	.management-contact {
+		margin-top: 5%;
 	}
-	
-	.footer-rentals {
-		font-size: 1.75em;
-		margin: 6% 0 0 10.15%;
-	}
-	
-	.fluid-wrapper .footer-social {
-		border-bottom: 1px solid #ccc;
-		border-top: 1px solid #ccc;
-		clear: both;
-		float: none;
-		margin: 0;
-		max-width: 100%;
-		padding: 2.5% 0;
-		text-align: center;
-	}
-	
-	.fluid-wrapper .footer-social p {
-		margin-bottom: 1%;
-	}
+
 	
 	.footer-contact {
 		float: none;
@@ -1089,6 +1099,10 @@ body.custom {
 		width: auto;
 	}
 
+	.footer-rentals {
+		font-size: 1.35em;
+	}
+
 	.custom .entry-content .subheading {
 		line-height: 120%;
 		margin-top: 3%;
@@ -1101,16 +1115,35 @@ body.custom {
 	}
 }
 
+@media screen and (max-width: 429px) {
+	.management .vcard {
+		float: none;
+		width: auto;
+	}
+}
+
 @media screen and (max-width: 405px) {
 	.custom h1, .block-type-content div.entry-content h1, .custom .entry-title {
 		font-size: 1.95em;
 		margin-bottom: 5%;
 	}
 
+	.custom .site-logo h1 {
+		margin-bottom: 0;
+	}
+
 	.fluid-wrapper > div {
 		float: none;
 		margin: 3% auto;
 		max-width: 95%;
+	}
+
+	.primary {
+		max-width: 50%;
+	}
+
+	.prairie-vista {
+		margin-left: 0;
 	}
 
 	.fluid-wrapper > div:nth-child(-n+3) {
@@ -1127,6 +1160,14 @@ body.custom {
 		font-size: 1.75em;
 	}
 
+	.services-table tr > td:first-of-type {
+		width: 30%;
+	}
+
+	.services-header .highlight {
+		font-size: .8em;
+	}
+
 	.social {
 		width: 90%;
 	}
@@ -1134,6 +1175,26 @@ body.custom {
 	.custom .entry-content .social h2 {
 		font-size: 1.15em;
 		margin: 2% 0 5%;
+	}
+
+	.site-footer .fluid-wrapper > div {
+		float: none;
+	}
+
+	.footer-apartments {
+		width: auto;
+	}
+
+	.footer-rentals {
+		text-align: center;
+	}
+
+	.footer-rentals a b {
+		display: block;
+	}
+
+	.fluid-wrapper .footer-social p {
+		float: none;
 	}
 }
 
