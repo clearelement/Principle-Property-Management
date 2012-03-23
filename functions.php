@@ -114,6 +114,47 @@ function ppm_homepage() {
 			   </div>
 		</div>
 	</section>
+
+	<section class="apts-include separator">
+		<img class="polaroid" src="/wp-content/themes/Principle-Property-Management/img/pv-pool.jpg" alt="Prairie Vista Pool" title="Prairie Vista Pool">
+		<img class="polaroid middle" src="/wp-content/themes/Principle-Property-Management/img/pv-hottub.jpg" alt="Prairie Vista Hot Tub" title="Prairie Vista Hot Tub">
+		<img class="polaroid" src="/wp-content/themes/Principle-Property-Management/img/pv-workout.jpg" alt="Prairie Vista Workout Room" title="Prairie Vista Workout Room">
+		<h1>Our Luxury Apartments Include:</h1>
+		<ul class="amenities">
+			<li>Spacious Living Area</li>
+			<li>Private Entrances</li>
+			<li>Individually Controlled A/C & Heat</li>
+			<li>Deluxe Appliances (incl. microwave)</li>
+			<li>Washer & Dryer</li>
+			<li>Satellite TV Available</li>
+			<li>Individually Controlled A/C & Heat</li>
+			<li>Free Internet Access</li>
+			<li>Ceramic Tile in Kitchen & Bath</li>
+			<li>Walk-In Closets</li>
+			<li>Ceiling Fans</li>
+			<li>Balcony & Patio Areas</li>
+		</ul>
+	</section>
+
+	<section class="layout separator">
+		<h1>Three Great Layouts to Choose From</h1>
+		<div class="layout-descrip group">
+			<img class="layout-col-1" src="/wp-content/themes/Principle-Property-Management/img/pv-1br.png" alt="Prairie Vista One Bedroom" title="Prairie Vista One Bedroom">
+			<h2 class="">One Bedroom</h2>
+			<ul>
+				<li>650 sq. ft.</li>
+				<li>One Bath</li>
+				<li>Living Room 11’x15’</li>
+				<li>Dining Area: 7.7’x5’</li>
+				<li>Bedroom: 11’x13’</li>
+			</ul>
+			<ul class="plain-list">
+				<li>Monthly Rent-Upper:</li> 
+				<li>Monthly Rent-Lower:</li>
+			</ul>
+			<a class="button" href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Apply Today</a>
+		</div>
+	</section>
 </div> <!-- REMOVE THIS DIV -->
 
 <?php 

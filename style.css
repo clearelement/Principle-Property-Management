@@ -103,7 +103,9 @@ img, embed, object, video { max-width: 100%; }
 
 .custom h1,
 .block-type-content div.entry-content h1, 
-.custom .entry-title {
+.custom .entry-title,
+.custom .h1,
+.block-type-content div.entry-content h2 {
 	color: #333;
 	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 2.25em;
@@ -112,8 +114,27 @@ img, embed, object, video { max-width: 100%; }
 	text-shadow: 1px 1px 0px #f2f2f2, 1px 2px 0px #b1b1b2;
 }
 
+.block-type-content div.entry-content h2 {
+		font-size: 1.333em;
+		margin: 0;
+		text-align: left;
+		text-shadow: none;
+	}
+}
+
 div.entry-content p {
 	margin: 0 0 5%;
+}
+
+div.entry-content ul, 
+div.entry-content ol {
+	padding: 0 0 0 4%;
+	margin: 2.5% 0;
+}
+
+div.entry-content ul.plain-list li,
+div.entry-content ol.plain-list li {
+	list-style: none;
 }
 
 /*Object Library*/
@@ -366,12 +387,6 @@ body.custom {
 	text-shadow: 1px 1px 0 #fff;
 }
 
-/*For Apartment Pages*/
-.custom .entry-content .intro-images .social h2 {
-	font-size: 1.125em;
-	margin-bottom: 4%;
-}
-
 .social a {
 	display: inline-block;
 	margin: 0 2%;
@@ -540,6 +555,56 @@ body.custom {
 .services-table tr:last-of-type > td:last-of-type {
 	padding: 0 5%;
 }
+
+/*Begin Apartment Pages*/
+.custom .entry-content .intro-images .social h2 {
+	font-size: 1.125em;
+	margin-bottom: 4%;
+}
+
+.separator {
+	border-top: 1px solid #999;
+	margin-top: 2%;
+	padding: 5% 0;
+}
+
+.polaroid {
+	border: 5px solid #fff;
+	box-shadow: 2px 3px 2px 1px #aaa;
+}
+
+.middle {
+	margin: 0 2.5%;
+}
+
+.entry-content .amenities {
+	  width: 100%;
+	  margin: 2% 0 0;
+	  overflow:hidden;
+}
+
+.amenities li {
+	float: left;
+	width: 33.333%;
+}
+
+.layout {
+	font-size: 1.125em;
+	line-height: 150%;
+}
+
+.layout-col-1 {
+	float: left;
+	margin-right: 14%;
+}
+
+.layout .button {
+	font-size: .85em;
+	padding: 1.5% 2%;
+	margin-top: 5%;
+}
+
+/*Begin Prairie Vista page*/
 
 
  /*Begin Footer Styles */
