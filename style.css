@@ -112,6 +112,10 @@ img, embed, object, video { max-width: 100%; }
 	text-shadow: 1px 1px 0px #f2f2f2, 1px 2px 0px #b1b1b2;
 }
 
+div.entry-content p {
+	margin: 0 0 5%;
+}
+
 /*Object Library*/
 
 .custom .block-type-content div.entry-content h3 {
@@ -270,7 +274,7 @@ body.custom {
 
 .custom div.entry-content .intro-copy h1 {
 	color: #666;
-	font-size: 2.875em;
+	font-size: 2.55em;
 	font-weight: normal;
 	line-height: 120%;
 	text-align: left;
@@ -281,10 +285,15 @@ body.custom {
 	font-weight: bold;
 }
 
-.intro-copy p {
-	font-size: 1.25em;
+.intro-copy {
+	font-size: 1.125em;
 	line-height: 150%;
 	text-shadow: 1px 1px 0 #fff;
+}
+
+.intro-top {
+	font-size: 1.5em;
+	line-height: 150%;
 }
 
 .intro-copy .button {
@@ -305,7 +314,7 @@ body.custom {
    display: block;
    text-shadow: rgba(255,2555,255,1) 0 1px 0;
    color: #0598c1;
-   font-size: 1.75em;
+   font-size: 1.5em;
    font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: bold;
    margin: 5% 0;
@@ -325,6 +334,14 @@ body.custom {
 	float: left;
 	text-align: center;
 	width: 36.458333%;
+}
+
+.intro-images .adr {
+	color: #666;
+	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.125em;
+	margin: 0 0 4%;
+	text-shadow: 1px 1px 0 #fff;
 }
 
 .apartments a:first-child img {
@@ -347,6 +364,12 @@ body.custom {
 	font-size: 1.5em;
 	margin-bottom: 0;
 	text-shadow: 1px 1px 0 #fff;
+}
+
+/*For Apartment Pages*/
+.custom .entry-content .intro-images .social h2 {
+	font-size: 1.125em;
+	margin-bottom: 4%;
 }
 
 .social a {
