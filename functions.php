@@ -120,14 +120,13 @@ function ppm_homepage() {
 		<img class="polaroid middle" src="/wp-content/themes/Principle-Property-Management/img/pv-hottub.jpg" alt="Prairie Vista Hot Tub" title="Prairie Vista Hot Tub">
 		<img class="polaroid" src="/wp-content/themes/Principle-Property-Management/img/pv-workout.jpg" alt="Prairie Vista Workout Room" title="Prairie Vista Workout Room">
 		<h1>Our Luxury Apartments Include:</h1>
-		<ul class="amenities">
+		<ul class="amenities-list">
 			<li>Spacious Living Area</li>
 			<li>Private Entrances</li>
 			<li>Individually Controlled A/C & Heat</li>
 			<li>Deluxe Appliances (incl. microwave)</li>
 			<li>Washer & Dryer</li>
 			<li>Satellite TV Available</li>
-			<li>Individually Controlled A/C & Heat</li>
 			<li>Free Internet Access</li>
 			<li>Ceramic Tile in Kitchen & Bath</li>
 			<li>Walk-In Closets</li>
@@ -154,6 +153,69 @@ function ppm_homepage() {
 			</ul>
 			<a class="button" href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Apply Today</a>
 		</div>
+		<div class="layout-descrip group">
+			<img class="layout-col-1" src="/wp-content/themes/Principle-Property-Management/img/pv-2br.png" alt="Prairie Vista Two Bedroom" title="Prairie Vista Two Bedroom">
+			<h2 class="">Two Bedroom</h2>
+			<ul>
+				<li>1020 sq. ft.</li>
+				<li>Two Bath</li>
+				<li>Living Room 15’x15’</li>
+				<li>Kitchen: 11.5’x9’</li>
+				<li>Master Bedroom: 12’x12.5’</li>
+				<li>Bedroom: 11'x12.5'</li>
+			</ul>
+			<ul class="plain-list">
+				<li>Monthly Rent-Upper:</li> 
+				<li>Monthly Rent-Lower:</li>
+			</ul>
+			<a class="button" href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Apply Today</a>
+		</div>
+		<div class="layout-descrip group">
+			<img class="layout-col-1" src="/wp-content/themes/Principle-Property-Management/img/pv-loft.png" alt="Prairie Vista Two Bedroom" title="Prairie Vista Two Bedroom">
+			<h2 class="">Loft</h2>
+			<ul>
+				<li>1280 sq. ft.</li>
+				<li>Two Bedroom w/Loft</li>
+				<li>Two and 1/2 Bath</li>
+				<li>Living Room 14’x18’</li>
+				<li>Kitchen: 13’x13.5’</li>
+				<li>Master Bedroom: 12’x12.5’</li>
+				<li>Bedroom: 11'x12.5'</li>
+				<li>Loft: 25'x12.5'</li>
+			</ul>
+			<ul class="plain-list">
+				<li>Monthly Rent:</li> 
+			</ul>
+			<a class="button" href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Apply Today</a>
+		</div>
+	</section>
+
+	<section class="amenities separator">
+		<h1>Amenities</h1>
+		<ul class="amenities-list">
+			<li>On-Site Management Staff</li>
+			<li>24-Hour Emergency Maintenance</li>
+			<li>New Brick Construction</li>
+			<li>Private Garages</li>
+			<li>Professionally Landscaped</li>
+			<li>Pond with Fountain</li>
+			<li> Irrigation System</li>
+			<li>Trash Removal</li>
+			<li>Free High Speed Interne</li>
+			<li>All Major GE Appliances</li>
+			<li>2” Faux Blind on All Windows</li>
+			<li>Snow Removal & Lawn Care</li>
+			<li>Monitored Sprinkler System</li>
+			<li>Clubhouse</li>
+			<li>Social Room</li>
+			<li>Fitness Center</li>
+			<li>All Major GE Appliances</li>
+			<li>Outdoor Heated Pool with Sundeck</li>
+			<li>Jacuzzi</li>
+			<li>Dunlap School District</li>
+			<li>Close to Rock Island Trail</li>
+		</ul>
+			<a class="button" href="http://principle.managebuilding.com/Resident/PublicPages/Application.aspx">Apply Today</a>
 	</section>
 </div> <!-- REMOVE THIS DIV -->
 

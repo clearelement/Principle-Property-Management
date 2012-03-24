@@ -381,9 +381,10 @@ body.custom {
 
 .custom .entry-content .social h2 {
 	line-height: 100%;
-	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
+	font-weight: normal;
 	margin-bottom: 0;
+	text-align: center;
 	text-shadow: 1px 1px 0 #fff;
 }
 
@@ -446,6 +447,12 @@ body.custom {
 .custom .entry-content .management h1 {
 	line-height: 100%;
 	margin: 5% 0 0;
+}
+
+.custom .entry-content .management h2 {
+	font-family: 'Vollkorn', Georgia, Times, serif;
+	font-weight: normal;
+	margin-bottom: 3%;
 }
 
 .management-copy {
@@ -577,13 +584,13 @@ body.custom {
 	margin: 0 2.5%;
 }
 
-.entry-content .amenities {
+.entry-content .amenities-list {
 	  width: 100%;
 	  margin: 2% 0 0;
 	  overflow:hidden;
 }
 
-.amenities li {
+.amenities-list li {
 	float: left;
 	width: 33.333%;
 }
@@ -591,6 +598,10 @@ body.custom {
 .layout {
 	font-size: 1.125em;
 	line-height: 150%;
+}
+
+.layout-descrip {
+	margin: 5% 0;
 }
 
 .layout-col-1 {
@@ -602,6 +613,12 @@ body.custom {
 	font-size: .85em;
 	padding: 1.5% 2%;
 	margin-top: 5%;
+}
+
+.amenities .button {
+	display: block;
+	margin: 4% auto;
+	width: 21%;
 }
 
 /*Begin Prairie Vista page*/
@@ -810,6 +827,11 @@ body.custom {
 	.custom div.entry-content .intro-copy h1 {
 		font-size: 2.5em;
 	}
+
+	.amenities-list li {
+		margin: 0 10%;
+		width: 30%;
+	}
 }
 
 @media screen and (max-width: 881px) {
@@ -874,6 +896,10 @@ body.custom {
 		width: 35%;
 		margin: 5% auto 0;
 	}
+
+	.layout {
+		font-size: 1em;
+	}
 }
 
 @media screen and (max-width: 805px) { 
@@ -892,8 +918,6 @@ body.custom {
 		max-width: none;
 		width: auto;
 	}
-
-	
 
 	.management-copy {
 		float: none;
@@ -944,6 +968,14 @@ body.custom {
 
 	.services-table tr > td:first-of-type {
 		width: 50%;
+	}
+
+	.intro-copy {
+		font-size: 1em;
+	}
+
+	.intro-top {
+		font-size: 1.25em;
 	}
 	
 	.footer-social :nth-child(3) img {
