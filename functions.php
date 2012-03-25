@@ -139,8 +139,8 @@ function ppm_homepage() {
 		<h1>Three Great Layouts to Choose From</h1>
 		<div class="layout-descrip group">
 			<img class="layout-col-1" src="/wp-content/themes/Principle-Property-Management/img/pv-1br.png" alt="Prairie Vista One Bedroom" title="Prairie Vista One Bedroom">
-			<h2 class="">One Bedroom</h2>
-			<ul>
+			<h2>One Bedroom</h2>
+			<ul class="layout-specs">
 				<li>650 sq. ft.</li>
 				<li>One Bath</li>
 				<li>Living Room 11’x15’</li>
@@ -155,8 +155,8 @@ function ppm_homepage() {
 		</div>
 		<div class="layout-descrip group">
 			<img class="layout-col-1" src="/wp-content/themes/Principle-Property-Management/img/pv-2br.png" alt="Prairie Vista Two Bedroom" title="Prairie Vista Two Bedroom">
-			<h2 class="">Two Bedroom</h2>
-			<ul>
+			<h2>Two Bedroom</h2>
+			<ul class="layout-specs">
 				<li>1020 sq. ft.</li>
 				<li>Two Bath</li>
 				<li>Living Room 15’x15’</li>
@@ -172,8 +172,8 @@ function ppm_homepage() {
 		</div>
 		<div class="layout-descrip group">
 			<img class="layout-col-1" src="/wp-content/themes/Principle-Property-Management/img/pv-loft.png" alt="Prairie Vista Two Bedroom" title="Prairie Vista Two Bedroom">
-			<h2 class="">Loft</h2>
-			<ul>
+			<h2>Loft</h2>
+			<ul class="layout-specs">
 				<li>1280 sq. ft.</li>
 				<li>Two Bedroom w/Loft</li>
 				<li>Two and 1/2 Bath</li>

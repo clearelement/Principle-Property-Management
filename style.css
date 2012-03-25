@@ -578,6 +578,7 @@ body.custom {
 .polaroid {
 	border: 5px solid #fff;
 	box-shadow: 2px 3px 2px 1px #aaa;
+	width: 31.25%;
 }
 
 .middle {
@@ -808,6 +809,12 @@ body.custom {
 		margin: 0 1.5%;
 }}
 
+@media screen and (max-width: 937px) {
+	.amenities .button {
+		width: 25%;
+	}
+}
+
 @media screen and (max-width: 917px) {
 	.custom .fluid-wrapper .site-logo {
 		max-width: none;
@@ -977,6 +984,10 @@ body.custom {
 	.intro-top {
 		font-size: 1.25em;
 	}
+
+	.layout-col-1 {
+		margin-right: 10%;
+	}
 	
 	.footer-social :nth-child(3) img {
 		margin: 0 12.875%;
@@ -998,6 +1009,10 @@ body.custom {
 
 	.process-descrip {
 		width: 50%;
+	}
+
+	.layout-col-1 {
+		margin-right: 2%;
 	}
 }
 
@@ -1023,6 +1038,23 @@ body.custom {
 
 	.custom div.entry-content .intro-copy h1 {
 		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 710px) {
+	.layout-descrip,
+	.block-type-content .entry-content .layout-descrip h2 {
+		text-align: center;
+	}
+
+	.layout-col-1 {
+		float: none;
+	}
+
+	.layout-specs li {
+		display: inline-block;
+		list-style: disc;
+		margin: 0 3%;
 	}
 }
 
