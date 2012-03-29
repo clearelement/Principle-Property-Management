@@ -836,8 +836,8 @@ body.custom {
 	}
 
 	.amenities-list li {
-		margin: 0 10%;
-		width: 30%;
+		margin: 0 2.5%;
+		width: 45%;
 	}
 }
 
@@ -1017,8 +1017,28 @@ body.custom {
 }
 
 @media screen and (max-width: 732px) {
-	.intro-copy .button {
+	.intro-copy .button,
+	.custom .amenities .button {
 		font-size: 1.25em;
+	}
+
+	.layout-descrip,
+	.block-type-content .entry-content .layout-descrip h2 {
+		text-align: center;
+	}
+
+	.layout-col-1 {
+		float: none;
+	}
+
+	.layout-specs li {
+		display: inline-block;
+		margin: 0 3%;
+	}
+
+	.layout-specs li:before {
+		content:'\2022';
+		margin-right:0.25em;
 	}
 }
 
@@ -1041,20 +1061,13 @@ body.custom {
 	}
 }
 
-@media screen and (max-width: 710px) {
-	.layout-descrip,
-	.block-type-content .entry-content .layout-descrip h2 {
-		text-align: center;
+@media screen and (max-width: 640px) {
+	.block-type-content div.entry-content h1 {
+		line-height: 120%;
 	}
 
-	.layout-col-1 {
-		float: none;
-	}
-
-	.layout-specs li {
-		display: inline-block;
-		list-style: disc;
-		margin: 0 3%;
+	.amenities .button {
+		width: 35%;
 	}
 }
 
@@ -1193,6 +1206,12 @@ body.custom {
 		margin-top: 5%;
 	}
 
+	.amenities-list li {
+		float: none;
+		margin: 0 5%;
+		width: 1000%%;
+	}
+
 	
 	.footer-contact {
 		float: none;
@@ -1272,6 +1291,10 @@ body.custom {
 		float: none;
 		width: auto;
 	}
+
+	.amenities .button {
+		width: 45%;
+	}
 }
 
 @media screen and (max-width: 405px) {
@@ -1310,6 +1333,10 @@ body.custom {
 
 	.custom div.entry-content .intro-copy h1 {
 		font-size: 1.75em;
+	}
+
+	.intro-copy .button {
+		font-size: 1.25em;
 	}
 
 	.services-table tr > td:first-of-type {
