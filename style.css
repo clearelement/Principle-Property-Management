@@ -1073,7 +1073,7 @@ body.custom {
 
 @media screen and (max-width: 620px) {
 	.intro-copy {
-		margin-right: 0;
+		margin: 0 2%;
 		width: auto;
 	}
 
@@ -1088,6 +1088,14 @@ body.custom {
 
 	.intro-images {
 		display: none;
+	}
+
+	.polaroid {
+		border: 2px solid #fff;
+	}
+
+	.middle {
+		margin: 0 2%;
 	}
 
 	.footer-apartments {
