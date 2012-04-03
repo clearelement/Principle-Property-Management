@@ -77,11 +77,10 @@ function ppm_fluid_footer() {
 }
 add_action('headway_after_wrapper', 'ppm_fluid_footer'); 
 
-// Homepage Content 
+// Sample Page Content 
 function ppm_homepage() { 
 ?>
-
-
+	
 <?php 
 }
 add_action('headway_entry_open', 'ppm_homepage');
