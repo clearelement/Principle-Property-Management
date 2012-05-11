@@ -69,7 +69,7 @@ function ppm_fluid_footer() {
 		</div>
 		<div class="fine-print">
 		<img src="<?php bloginfo('stylesheet_directory'); ?>/img/eho-logo.png" alt="Equal Housing Opportunity" title="Equal Housing Opportunity" width="50" height="52" />
-		<div class="copyright">&copy; <?php echo date('Y'); ?> Principle Property Management</div>
+		<div class="copyright">&copy; <?php echo date('Y'); ?> Principle Property Management | Rental Homes and Apartments in Peoria, IL</div>
 		</div>
 	</div>
 	</footer>   
