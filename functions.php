@@ -66,6 +66,7 @@ function ppm_fluid_footer() {
 			 <div class="tel"><span class="type">phone<br></span>309.686.1122<br></div>
 			 <div class="tel"><span class="type">fax<br></span>309.688.7001<br></div>
 			 <div class="type">email<br><a class="email" href="mailto:info@principleproperty.net">info@principleproperty.net</a></div>
+			 <div class="hours"><span class="type">office hours</span><br>Mon-Fri 8am-6pm<br>Sat 9am-1pm</div>
 		</div>
 		<div class="fine-print">
 		<img src="<?php bloginfo('stylesheet_directory'); ?>/img/eho-logo.png" alt="Equal Housing Opportunity" title="Equal Housing Opportunity" width="50" height="52" />
@@ -80,7 +81,8 @@ add_action('headway_after_wrapper', 'ppm_fluid_footer');
 // Sample Page Content 
 function ppm_homepage() { 
 ?>
-	
+
+
 <?php 
 }
 add_action('headway_entry_open', 'ppm_homepage');

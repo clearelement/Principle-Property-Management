@@ -781,7 +781,7 @@ body.custom {
 	.footer-contact {
 		clear: both;
 		float: none;
-		margin-left: 5%;
+		margin-left: 0;
 		margin-right: 5%;
 		margin-top: 3%;
 		padding-bottom: 3%;
@@ -790,7 +790,7 @@ body.custom {
 	
 	.footer-contact > div {
 		float: left;
-		margin: 0 3.45% 0;
+		margin: 0 1.75% 0;
 	}
 	
 	.footer-contact div:first-child {
@@ -1239,8 +1239,7 @@ body.custom {
 		margin-right: 12.5%;
 	}
 
-	.footer-contact > div:nth-child(3),
-	.footer-contact > div:nth-child(4) {
+	.footer-contact > div:nth-child(n+3) {
 		margin-top: 2.5%;
 	}
 }
